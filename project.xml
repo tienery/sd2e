@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Sd2e" package="sd2e" version="1.0.0" company="Colour Multimedia Enterprises" />
+	<app main="Main" path="Export" file="Sd2e" />
+	
+	<source path="Source" />
+	
+	<section if="sys">
+		<window fps="200" hardware="true" vsync="false" background="#FFFFFF" />
+	</section>
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="a" />
+	
+</project>
